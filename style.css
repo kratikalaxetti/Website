@@ -1,0 +1,183 @@
+body,html {
+  height: 100%;
+}
+.media{
+  background-image: url("https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"); /* The image used */
+  background-color:black; /* Used if the image is unavailable */
+  height:100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:cover ; /* Resize the background image to cover the entire container */
+
+}
+.textcentre{
+   position: absolute;
+   top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-family:Montserrat;
+  font-size: 40px;
+}
+  
+
+
+.textleft{
+    position: absolute; /* Position the background text */
+  bottom:2%; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 30%; /* Full width */
+  padding: 10px; /* Some padding */
+  
+}
+ 
+ 
+.textright{
+ 
+  position: absolute; /* Position the background text */
+  top: 11%; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 15%; /* Full width */
+  padding: 10px; /* Some padding */
+  margin-left: 83%;
+}
+
+.roundimg{
+    vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+
+
+.explore{
+  margin-left: 20px;
+  margin-right:3px;
+   background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  
+}
+.share{
+  margin-left: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  
+}
+
+
+
+.block1{
+  margin-left: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color:white;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+ margin-right:3px;
+ margin-left: 0px;
+ text-align:  center;
+
+}
+.block2{
+  background: rgba(0, 0, 0, 0.5);
+  color:white;
+  padding-left: 10px;
+   padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+   text-align:  center;
+}
+.block3{
+  background: rgba(0, 0, 0, 0.5);
+  color:white;
+  padding-left: 10px;
+   padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+   text-align:  center;
+}
+
+.block4{
+  background: rgba(0, 0, 0, 0.5);
+  color:white;
+  padding-left: 10px;
+   padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+   text-align:  center;
+}
+.block5{
+  background: rgba(0, 0, 0, 0.5);
+  color:white;
+  padding-left: 10px;
+  padding-right: 10px;
+   padding-top: 5px;
+  padding-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 2px;
+   text-align:  center;
+}
+
+.mixed{
+  margin-top: 30px;
+}
+
+
+.click{
+  background: red;
+  margin-left:35%;
+  margin-right: 40%;
+  margin-bottom: 20px;
+}
+h3{
+padding-top: 40px;
+padding-bottom: 30px;
+}
+
+
+.categories{
+  background-image: url(https://images.unsplash.com/photo-1505744386214-51dba16a26fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-color:black; /* Used if the image is unavailable */
+  margin-right:0px;
+  margin-left:0px; 
+  height:950px; /* You must set a specified height */
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:cover;  /* Resize the background image to cover the entire container */
+
+}
+footer{
+  color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+.footer-links{
+  color: #FFFFFF;
+
+}
+ul{
+  align-items: left;
+  list-style: none;
+}
+
+
+
+
